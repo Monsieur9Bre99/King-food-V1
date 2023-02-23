@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        .switch {
+            background: rgba(20, 24, 28, 1);
+            border: 1px ridge rgb(230 90 75);
+            position: relative;
+            border-radius: 2rem;
+            width: 100px;
+            height: 350px;
+            transition: all .15s ease;
+            overflow: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: y mandatory;
+        }
+
+        .space {
+            height: 250px;
+            scroll-snap-align: center;
+        }
+
+        .switch.active>.btn i {
+            color: rgb(60 230 140);
+        }
+
+        .btn {
+            display: flex;
+            margin: 10px;
+            position: relative;
+            background: rgba(0, 8, 16, 1);
+            border: 1px ridge rgb(230 90 75);
+            width: 80px;
+            height: 80px;
+            border-radius: 32px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.06);
+            cursor: pointer;
+        }
+
+        .btn i {
+            font-size: 2rem;
+            color: rgb(230 90 75);
+            transition: all .25s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="switch">
+        <div class="space"></div>
+        <div class="btn">
+            <i class="bx bx-power-off"></i>
+        </div>
+        <div class="space"></div>
+    </div>
+
+    <script>
+        let btn = document.querySelector('.btn');
+        let switchElement = document.querySelector('.switch');
+
+        switchElement.addEventListener('scroll', (evnt) => {
+
+            const y = evnt.target.scrollTop;
+
+            if (y > 127) {
+                switchElement.classList.add('active');
+
+                switchElement.style.background = `rgba(${y - 8},${y - 6},${y - 3}, 1)`
+
+                document.body.style.background = `rgb(${y},${y},${y})`;
+
+                btn.style.background = `rgb(${y},${y},${y}, 1)`;
+
+            } else {
+
+                switchElement.classList.remove('active');
+
+                switchElement.style.background = `rgba(${y + 20},${y + 24},${y + 28}, 1)`
+
+                document.body.style.background = `rgb(${y + 30},${y + 34},${y + 38})`;
+
+                btn.style.background = `rgb(${y},${y + 8},${y + 16}, 1)`;
+            }
+
+        })
+
+    </script>
+
+</body>
+
+</html>

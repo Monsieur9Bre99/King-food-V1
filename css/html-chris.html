@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            color: #424242;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        section {
+            padding: 2rem 9%;
+        }
+
+        #metiers {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem;
+            gap: 1.5rem;
+            align-items: center;
+            background: url('../images/proxima_metiers_bg.jpg');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        #metiers h2 {
+            text-align: center;
+        }
+
+        #metiers h3 {
+            height: 60px;
+        }
+
+        #metiers .small-link:before {
+            content: '\f0a9';
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-right: 5px;
+            font-size: 15px;
+            color: #0084ED;
+            transition: all 0.3s ease;
+        }
+
+        #metiers .small-link:hover:before {
+            margin-right: 10px;
+            color: #009BED;
+        }
+
+        #metiers .articles {
+            margin-bottom: 0;
+        }
+
+        .white-bloc {
+            width: 30%;
+            background: #fff;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(30, 44, 62, 0.1);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(30, 44, 62, 0.1);
+            box-shadow: 0px 0px 20px 0px rgba(30, 44, 62, 0.1);
+        }
+
+        .white-bloc img {
+            max-width: 100%;
+        }
+
+        .push-down {
+            margin-bottom: 20px;
+        }
+
+        .pushdown-big {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--- NOS METIERS -->
+    <section id="metiers">
+        <h2>Une large gamme de produits adaptée à tous les profils d’entreprises</h2>
+        <p class="description">Avec Proxima-Office, révolutionnez vos outils de productivité et accelérez votre
+            transformation digitale.</p>
+        <div class="articles">
+
+            <div class="white-bloc push-down">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Solutions d'impression</h3>
+                    <a href="solutions-dimpression.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+            <div class="white-bloc push-down">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Gestion Electronique des Documents</h3>
+                    <a href="ged.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+            <div class="white-bloc push-down">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Traitement des flux d’envois postaux</h3>
+                    <a href="gestion-du-courrier-dematerialise.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+            <div class="white-bloc">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Téléphonie IP</h3>
+                    <a href="telephonie-ip.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+            <div class="white-bloc">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Ecran Interactif et Affichage Dynamique </h3>
+                    <a href="affichage-dynamique-et-intéractif.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+            <div class="white-bloc">
+                <img src="https://i.imgur.com/C2cgkrR.png">
+                <div class="bloc-content">
+                    <h3>Infogérance et réseau</h3>
+                    <a href="informatique-et-reseau.html" class="small-link">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
