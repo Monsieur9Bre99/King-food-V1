@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://github.com/Monsieur9Bre99/King-food-V1/blob/main/images/king-logo.jp">
+  <img src="./images/king-logo.jp">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.1-vert?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-1.0-vert?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/Monsieur9Bre99/King-food-V1?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/Monsieur9Bre99/King-food-V1?color=rouge&style=for-the-badge">
   <img src="https://img.shields.io/github/forks/Monsieur9Bre99/King-food-V1?color=sarcelle&style=for-the-badge">
