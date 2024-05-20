@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/king-logo.jp">
+  <img src="images/king-logo.jpg">
 </p>
 
 <p align="center">
