@@ -14,8 +14,8 @@
   <img src="https://img.shields.io/badge/Open%20Source-Oui-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Maintenu-Oui-lightblue?style=flat-square">
   <img src="https://img.shields.io/badge/Ecrit%20en-HTML-red?style=flat-square">
-    <img src="https://img.shields.io/badge/Ecrit%20en-CSS-blue?style=flat-square">
-    <img src="https://img.shields.io/badge/Ecrit%20en-JS-yellow?style=flat-square">
+    <img src="https://img.shields.io/badge/%20CSS-blue?style=flat-square">
+    <img src="https://img.shields.io/badge/%20JS-yellow?style=flat-square">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbreroot%2Fm2L-coin&title=Visitors&edge_flat=false"/>
 </p>
 
